@@ -6,10 +6,25 @@ body{
 
 .contenedor{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: 100px;
+    width: 90%;
 }
 
 .contenedor div{
     background-color: #4c4747;
     border: 2px solid black;
+}
+
+.contenedor .cuarto{
+    background-color: orange;
+    /* grid-column-start: 1;
+    grid-column-end: -2;
+    grid-row-start: 2;
+    grid-row-end: 4; */
+
+    grid-column-start: 1;
+    grid-column-end: span 3;
+
+    grid-column: 1 / span 3;
 }
