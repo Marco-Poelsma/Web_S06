@@ -1,6 +1,6 @@
 # S06 - Grid
 
-[Ejercicio](https://github.com/Marco_Poelsma/Web_S06-Ex)
+[Ejercicio](https://github.com/Marco-Poelsma/Web_S06-Ex)
 
 El Grid Layout nos sirve para hacer cosas similares a lo que vimos la sesión pasada con Flexbox, pero en 2 dimensiones.
 
