@@ -1,0 +1,15 @@
+body{
+    font-family: monospace;
+    background-color: #786d6d;
+    color: whitesmoke
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contenedor div{
+    background-color: #4c4747;
+    border: 2px solid black;
+}
