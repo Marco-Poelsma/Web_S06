@@ -1,6 +1,6 @@
 # S06 - Grid
 
-El Grid Layout nos sirve para hacer cosas similares a lo que vimos la semana pasada con Flexbox, pero en 2 dimensiones.
+El Grid Layout nos sirve para hacer cosas similares a lo que vimos la sesión pasada con Flexbox, pero en 2 dimensiones.
 
 ## `display: grid`
 
@@ -11,7 +11,16 @@ El Grid Layout nos sirve para hacer cosas similares a lo que vimos la semana pas
 `grid-template-columns` y `grid-template-rows` nos permiten definir el tamaño de las columnas y filas de la cuadrícula.
 
 ### Unidades fraccionales (`fr`)
+
 Las unidades fraccionales (`fr`) nos permiten asignar proporciones del espacio disponible en la cuadrícula. Por ejemplo, `1fr` representa una fracción del espacio disponible, `2fr` representa dos fracciones, y así sucesivamente.
+
+### `repeat()`
+
+La función `repeat()` nos permite repetir un patrón de columnas o filas en la cuadrícula. Por ejemplo, `grid-template-columns: repeat(3, 1fr);` crea tres columnas de igual tamaño.
+
+#### Nota adicional:
+
+Pese a que también se puede usar `grid-template-rows`, en la práctica es más común definir solo las columnas y dejar que las filas se ajusten automáticamente según el contenido.
 
 ## `grid-gap`
 
